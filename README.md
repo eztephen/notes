@@ -4,7 +4,7 @@ Created a RESTful API that allows users to create, retrieve, update, and delete 
 
 Validations are added for blank title, blank body and size of body.
 
-To Run the API, 
+**To Run the API, **
 
 Kindly make sure Java 17 and Maven are installed on your respective machine.
 
@@ -14,8 +14,20 @@ Kindly make sure Java 17 and Maven are installed on your respective machine.
 - If you have an IDE opened, you may navigate on the project and run **NotesApplication.java**
 
 
-Helpful link : 
+**Helpful link : **
 https://www.geeksforgeeks.org/how-to-run-spring-boot-application/
 
+**API Endpoints:**
 
-For further reference, you may check on the swagger : http://localhost:8080/swagger-ui/index.html#
+· POST /v1/notes: Create a new note.
+
+· GET /v1/notes: Retrieve all notes.
+
+· GET /v1/notes/{id}: Retrieve a specific note by ID.
+
+· PUT /v1/notes/{id}: Update a specific note.
+
+· DELETE /v1/notes/{id}: Delete a specific note.
+
+
+_For further reference, you may check on the swagger : http://localhost:8080/swagger-ui/index.html#_
